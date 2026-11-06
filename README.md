@@ -25,3 +25,11 @@ Las fichas y representaciones de productos son ilustrativas; confirmar especific
 ## Interacción
 
 Botones 0–5: cambiar de nivel. En móvil: abrir «Pisos». Catálogos: arrastrar horizontalmente o usar las flechas para girar 60 grados. Seleccionar un producto abre su ficha. Los diálogos se cierran con Escape, el botón de cierre o el fondo. El sonido mecánico es opcional. Se respeta la preferencia de movimiento reducido.
+
+## Publicación con GitHub Pages
+
+El workflow `.github/workflows/deploy-pages.yml` compila y publica al actualizar `main`. Vite configura `/web-alinox/` como base de producción; el desarrollo local conserva `/`.
+
+En GitHub, abre **Settings → Pages → Build and deployment → Source** y selecciona **GitHub Actions**. El workflow intenta activar Pages automáticamente; si los permisos del repositorio no lo permiten, selecciona la opción anterior y vuelve a ejecutar **Actions → Publish website to GitHub Pages → Run workflow**.
+
+Dirección tras un despliegue exitoso: https://joelacuna.github.io/web-alinox/
