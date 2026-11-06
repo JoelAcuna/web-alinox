@@ -33,3 +33,7 @@ El workflow `.github/workflows/deploy-pages.yml` compila y publica al actualizar
 En GitHub, abre **Settings → Pages → Build and deployment → Source** y selecciona **GitHub Actions**. El workflow intenta activar Pages automáticamente; si los permisos del repositorio no lo permiten, selecciona la opción anterior y vuelve a ejecutar **Actions → Publish website to GitHub Pages → Run workflow**.
 
 Dirección tras un despliegue exitoso: https://joelacuna.github.io/web-alinox/
+
+## Galería panorámica 3D
+
+La experiencia principal ocupa la pantalla completa y representa una sala circular mediante CSS 3D, con paredes, iluminación y pedestales. Arrastra horizontalmente para mirar alrededor o usa las flechas de la interfaz. También puedes enfocar la galería con Tab y usar las flechas del teclado. «Explorar esta pieza» abre el elemento situado al frente. El ascensor cambia entre los seis niveles sin recargar la página. Las piezas son representaciones estilizadas en CSS, no modelos CAD descargables.
