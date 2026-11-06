@@ -37,3 +37,5 @@ Dirección tras un despliegue exitoso: https://joelacuna.github.io/web-alinox/
 ## Galería panorámica 3D
 
 La experiencia principal ocupa la pantalla completa y representa una sala circular mediante CSS 3D, con paredes, iluminación y pedestales. Arrastra horizontalmente para mirar alrededor o usa las flechas de la interfaz. También puedes enfocar la galería con Tab y usar las flechas del teclado. «Explorar esta pieza» abre el elemento situado al frente. El ascensor cambia entre los seis niveles sin recargar la página. Las piezas son representaciones estilizadas en CSS, no modelos CAD descargables.
+
+La vitrina central muestra productos generales en el nivel 0 y categorías en 1–3. Gira automáticamente a velocidad suave. «Pausar giro» permite detenerla; también se pausa al pasar el cursor, enfocar un producto, arrastrar, abrir una ficha o cambiar de pestaña. Las flechas suspenden el giro durante unos segundos. La preferencia de movimiento reducido desactiva el giro inicial. Oficina y taller ocupan los niveles 4 y 5.
